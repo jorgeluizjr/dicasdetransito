@@ -1,0 +1,9 @@
+.idea
+composer.phar
+phpunit.xml
+vendor/
+composer.lock
+.travis.yml
+CHANGELOG.md
+CONDUCT.md
+CONTRIBUTING.md
