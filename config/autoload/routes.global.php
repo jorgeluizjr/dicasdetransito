@@ -28,7 +28,7 @@ return [
         [
             'name' => 'api.telegram',
             'path' => '/api/telegram',
-            'middleware' => App\Action\IndexAction::class,
+            'middleware' => App\Action\TelegramAction::class,
             'allowed_methods' => ['GET'],
         ],
     ],

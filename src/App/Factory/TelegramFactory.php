@@ -3,9 +3,9 @@
 namespace App\Factory;
 
 use Interop\Container\ContainerInterface;
-use App\Action\IndexAction;
+use App\Action\TelegramAction;
 
-class IndexFactory
+class TelegramFactory
 {
     
     public function __invoke(ContainerInterface $container)
