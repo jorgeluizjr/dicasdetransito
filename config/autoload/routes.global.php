@@ -7,7 +7,6 @@ return [
             App\Action\PingAction::class => App\Action\PingAction::class,
         ],
         'factories' => [
-            App\Action\HomePageAction::class => App\Action\HomePage::class,
             App\Action\IndexAction::class => App\Factory\IndexFactory::class,
         ],
     ],
