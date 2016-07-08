@@ -3,14 +3,14 @@
 namespace App\Factory;
 
 use Interop\Container\ContainerInterface;
-use App\Action\TelegramAction;
+use App\Action\WebhookAction;
 
-class TelegramFactory
+class WebhookFactory
 {
     
     public function __invoke(ContainerInterface $container)
     {
-        return new TelegramAction($container);
+        return new WebhookAction($container);
     }
 
 }
